@@ -29,3 +29,13 @@ int main(int argc, char* argv[])
 
 	return 0;
 }
+
+/**
+ * @file
+ * @brief File used to test the malloc_dbg, calloc_dbg and free_dbg functions.
+ * @details
+ * This file only have a main function that calls malloc, calloc and free.
+ * When the program exits, memory leaks must be printed.
+ * @author [tinouduart33](https://github.com/tinouduart33)
+ * @see malloc_dbg.c, malloc_dbg.h
+ */
