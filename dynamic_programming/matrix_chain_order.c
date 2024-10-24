@@ -10,12 +10,10 @@
  * multiplications involved.
  * @author [CascadingCascade](https://github.com/CascadingCascade)
  */
-
 #include <assert.h>  /// for assert
 #include <limits.h>  /// for INT_MAX macro
 #include <stdio.h>   /// for IO operations
 #include <stdlib.h>  /// for malloc() and free()
-
 /**
  * @brief Finds the optimal sequence using the classic O(n^3) algorithm.
  * @param l length of cost array
@@ -117,3 +115,5 @@ int main()
     test();  // run self-test implementations
     return 0;
 }
+
+//
